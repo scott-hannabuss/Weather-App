@@ -1,15 +1,18 @@
-import "../styles/App.css";
 import React from "react";
 import PropTypes from "prop-types";
 import LocationDetails from "./LocationDetails";
 import ForecastSummaries from "./ForecastSummaries";
+import ForecastDetails from "./ForecastDetails";
+import "../styles/App.css";
 
 const App = (props) => {
   const { forecasts, location } = props;
+  console.log(forecasts);
   return (
-    <div className="App">
+    <div className="weather-app">
       <LocationDetails city={location.city} country={location.country} />
       <ForecastSummaries forecasts={forecasts} />
+      {forecasts[0] && <ForecastDetails forecast={forecasts[0]} />}
     </div>
   );
 };

@@ -1,5 +1,7 @@
-
+.weather-app {
+  margin: 0 20px;
+}
 body {
   background-color: #eceef1;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
 }
