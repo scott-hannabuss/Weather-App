@@ -4,7 +4,6 @@ import moment from "moment";
 
 const ForecastDetails = ({ forecast }) => {
   const { date, temperature, wind, humidity } = forecast;
-  console.log(forecast);
   return (
     <div className="forecast-details" data-testid="forecast-details">
       <div className="forecast-details__date">
