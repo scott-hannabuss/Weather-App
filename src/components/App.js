@@ -16,10 +16,10 @@ const App = () => {
   useEffect(() => {
     getForecast(
       searchText,
+      setErrorMessage,
       setSelectedDate,
       setForecasts,
-      setLocation,
-      setErrorMessage
+      setLocation
     );
   }, []);
 
@@ -43,6 +43,7 @@ const App = () => {
 
   return (
     <div className="weather-app">
+      <div className="background-image" />
       <SearchForm
         searchText={searchText}
         setSearchText={setSearchText}

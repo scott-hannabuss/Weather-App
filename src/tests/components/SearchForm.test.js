@@ -4,9 +4,9 @@ import SearchForm from "../../components/SearchForm";
 
 describe("SearchForm", () => {
   const validProps = {
-    onInputChange: () => {},
+    setSearchText: () => {},
     onSubmit: () => {},
-    searchInput: "Liverpool",
+    searchText: "Liverpool",
   };
 
   it("renders correctly", () => {

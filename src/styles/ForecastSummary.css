@@ -1,0 +1,29 @@
+.forecast-summary {
+  color: white;
+}
+
+.summary-button {
+  background: none !important;
+  border: none;
+  margin-top: 10%;
+  padding: 0 !important;
+  font-family: arial, sans-serif;
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+  text-align: center;
+}
+
+@media only screen and (min-width: 751px) and (max-width: 1025px) {
+  .summary-button {
+    margin-top: 15%;
+    max-width: 60%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .summary-button {
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+}

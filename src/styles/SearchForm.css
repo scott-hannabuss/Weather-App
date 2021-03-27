@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Chango&family=Lora:ital@1&family=Roboto+Mono:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
+
+.header {
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  width: 100%;
+  font-size: 300%;
+  color: white;
+  margin-top: 3%;
+  /* transform: scaleX(1); */
+}
+
+.input {
+  margin: auto;
+  margin-top: 3%;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  display: grid;
+  width: 40%;
+  padding: 0.5%;
+  color: black;
+  border-radius: 25px;
+  font-family: "Playfair Display", serif;
+}
+
+.search-button {
+  margin: auto;
+  color: black;
+  justify-content: center;
+  align-content: center;
+  display: grid;
+  padding: 0.5%;
+  margin-top: 3%;
+  width: 20%;
+  border-radius: 25px;
+  font-family: "Playfair Display", serif;
+}
+
+@media only screen and (min-width: 751px) and (max-width: 1025px) {
+  .header {
+    margin-top: 7.5%;
+  }
+  .input {
+    margin-top: 7.5%;
+  }
+  .search-button {
+    margin-top: 7.5%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .header {
+    margin-top: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
+    width: auto;
+  }
+  .input {
+    margin-top: 10%;
+    width: 70%;
+  }
+  .search-button {
+    margin-top: 10%;
+    width: 35%;
+  }
+}

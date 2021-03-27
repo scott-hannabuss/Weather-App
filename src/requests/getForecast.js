@@ -26,9 +26,10 @@ const getForecast = (
     })
     .catch((error) => {
       const { status } = error.response;
-      console.log(error);
       if (status === 404) {
-        setErrorMessage("That place doesn't exist! Please try again.");
+        setErrorMessage(
+          "Sorry, we cannot find that UK city. Please try again."
+        );
         console.error("Location is not valid", error);
       }
       if (status === 500) {

@@ -6,7 +6,7 @@ describe("ForecastSummary", () => {
   const validProps = {
     date: 1111111,
     description: "Stub description",
-    icon: 800,
+    icon: "800",
     temperature: {
       min: 12,
       max: 22,
@@ -17,6 +17,7 @@ describe("ForecastSummary", () => {
   it("renders correctly", () => {
     const { asFragment } = render(
       <ForecastSummary
+        onSelect={validProps.onSelect}
         date={validProps.date}
         description={validProps.description}
         icon={validProps.icon}
@@ -30,6 +31,7 @@ describe("ForecastSummary", () => {
   it("render correct values for props", () => {
     const { getByText, getByTestId } = render(
       <ForecastSummary
+        onSelect={validProps.onSelect}
         date={validProps.date}
         description={validProps.description}
         icon={validProps.icon}

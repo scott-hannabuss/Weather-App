@@ -7,7 +7,7 @@ exports[`SearchForm renders correctly 1`] = `
   >
     <input
       type="text"
-      value=""
+      value="Liverpool"
     />
     <button
       type="submit"

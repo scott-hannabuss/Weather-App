@@ -29,7 +29,10 @@ describe("ForecastSummaries", () => {
 
   it("renders correctly", () => {
     const { asFragment } = render(
-      <ForecastSummaries forecasts={validProps.forecasts} />
+      <ForecastSummaries
+        forecasts={validProps.forecasts}
+        onForecastSelect={validProps.onForecastSelect}
+      />
     );
     expect(asFragment()).toMatchSnapshot();
   });
@@ -37,7 +40,7 @@ describe("ForecastSummaries", () => {
     const { getAllByTestId } = render(
       <ForecastSummaries
         forecasts={validProps.forecasts}
-        onForecastSelect={validProps.onSelect}
+        onForecastSelect={validProps.onForecastSelect}
       />
     );
     expect(getAllByTestId("forecast-summary")).toHaveLength(2);

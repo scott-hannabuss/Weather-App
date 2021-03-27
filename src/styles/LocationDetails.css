@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
+
+.location-details {
+  color: white;
+  margin: auto;
+  align-content: center;
+  justify-content: center;
+  display: grid;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-family: "Playfair Display", serif;
+}
+
+.error-message {
+  color: white;
+  font-family: "Playfair Display", serif;
+  margin: auto;
+  align-content: center;
+  justify-content: center;
+  display: grid;
+  padding-top: 10%;
+}
+
+@media only screen and (min-width: 751px) and (max-width: 1025px) {
+  .location-details {
+    margin-top: 7.5%;
+  }
+  .error-message {
+    margin-top: 25%;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .location-details {
+    margin-top: 7.5%;
+  }
+  .error-message {
+    text-align: justify;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 10%;
+  }
+}
