@@ -15,8 +15,7 @@
         "direction": "s"
       },
       "humidity": 30,
-      "description": "Clear",
-      "icon": "800"
+      "description": "Clear"
     },
     {
       "date": 1525132800000,
@@ -29,8 +28,7 @@
         "direction": "ne"
       },
       "humidity": 80,
-      "description": "Stormy",
-      "icon": "211"
+      "description": "Stormy"
     },
     {
       "date": 1525219200000,
@@ -43,8 +41,7 @@
         "direction": "n"
       },
       "humidity": 50,
-      "description": "Heavy Snow",
-      "icon": "602"
+      "description": "Heavy Snow"
     },
     {
       "date": 1525305600000,
@@ -57,8 +54,7 @@
         "direction": "e"
       },
       "humidity": 80,
-      "description": "Tornado",
-      "icon": "781"
+      "description": "Tornado"
     },
     {
       "date": 1525392000000,
@@ -71,8 +67,7 @@
         "direction": "nne"
       },
       "humidity": 50,
-      "description": "Hazy",
-      "icon": "721"
+      "description": "Hazy"
     }
   ]
 }
