@@ -32,9 +32,10 @@ exports[`ForecastSummary renders correctly 1`] = `
       Stub description
     </div>
     <button
+      class="summary-button"
       type="button"
     >
-      More details
+      Display more details above
     </button>
   </div>
 </DocumentFragment>

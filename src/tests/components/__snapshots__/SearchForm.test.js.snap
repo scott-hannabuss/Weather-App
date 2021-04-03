@@ -5,11 +5,19 @@ exports[`SearchForm renders correctly 1`] = `
   <div
     class="search-form"
   >
+    <h1
+      class="header"
+    >
+      React Weather App
+    </h1>
     <input
+      class="input"
+      placeholder="Enter UK City"
       type="text"
       value="Liverpool"
     />
     <button
+      class="search-button"
       type="submit"
     >
       Search

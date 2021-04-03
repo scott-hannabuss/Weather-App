@@ -35,9 +35,10 @@ exports[`ForecastSummaries renders correctly 1`] = `
         Stub description 1
       </div>
       <button
+        class="summary-button"
         type="button"
       >
-        More details
+        Display more details above
       </button>
     </div>
     <div
@@ -70,9 +71,10 @@ exports[`ForecastSummaries renders correctly 1`] = `
         Stub description2
       </div>
       <button
+        class="summary-button"
         type="button"
       >
-        More details
+        Display more details above
       </button>
     </div>
   </div>

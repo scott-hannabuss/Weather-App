@@ -8,6 +8,6 @@ describe("ForecastDetails", () => {
       <LocationDetails city="Manchester" country="UK" />
     );
 
-    expect(getByText("Manchester, UK")).toHaveClass("location-details");
+    expect(getByText("Manchester")).toHaveClass("location-details");
   });
 });
