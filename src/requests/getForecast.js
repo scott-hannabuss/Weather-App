@@ -2,6 +2,8 @@
 
 import axios from "axios";
 
+// makes axios request to open weather api which then stores forecast data against the get forecast function
+
 const getForecast = (
   searchText,
   setErrorMessage,

@@ -2,6 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import "../styles/LocationDetails.css";
 
+// throws error if city name cannot be found
+
 const LocationDetails = (props) => {
   const { city, errorMessage } = props;
   return errorMessage ? (

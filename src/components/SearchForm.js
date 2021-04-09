@@ -2,6 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import "../styles/SearchForm.css";
 
+// renders the search form and sets the search text when user inputs city name
+
 const SearchForm = ({ searchText, setSearchText, onSubmit }) => {
   const handleInputChange = (event) => setSearchText(event.target.value);
 

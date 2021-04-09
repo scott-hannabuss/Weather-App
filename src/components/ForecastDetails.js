@@ -3,6 +3,8 @@ import PropTypes from "prop-types";
 import moment from "moment";
 import "../styles/ForecastDetails.css";
 
+// displays further details on the forecast when user clicks to see more
+
 const ForecastDetails = ({ forecast }) => {
   const { date, temperature, wind, humidity } = forecast;
   return (

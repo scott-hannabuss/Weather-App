@@ -6,6 +6,8 @@ import WeatherIcon from "react-icons-weather";
 import moment from "moment";
 import "../styles/ForecastSummary.css";
 
+// dictates what data will be shown in forecast summary
+
 const ForecastSummary = (props) => {
   const { date, temperature, description, icon, onSelect } = props;
 

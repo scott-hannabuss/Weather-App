@@ -7,11 +7,15 @@ import SearchForm from "./SearchForm";
 import "../styles/App.css";
 
 const App = () => {
+  // usestate declares initial value of state and also a function that can then change and manipulate this value
+
   const [forecasts, setForecasts] = useState([]);
   const [location, setLocation] = useState({ city: "", country: "" });
   const [selectedDate, setSelectedDate] = useState(0);
   const [searchText, setSearchText] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
+
+  // calls getForecast function upon initial render
 
   useEffect(() => {
     getForecast(
@@ -23,6 +27,8 @@ const App = () => {
     );
   }, []);
 
+  // finds specific forecast by the day's date
+
   const selectedForecast = forecasts.find(
     (forecast) => forecast.date === selectedDate
   );
@@ -30,6 +36,8 @@ const App = () => {
   const handleForecastSelect = (date) => {
     setSelectedDate(date);
   };
+
+  // function to get the weather for the city the user inputs
 
   const handleCitySearch = () => {
     getForecast(

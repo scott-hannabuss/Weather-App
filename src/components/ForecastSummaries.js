@@ -3,6 +3,8 @@ import PropTypes from "prop-types";
 import ForecastSummary from "./ForecastSummary";
 import "../styles/ForecastSummaries.css";
 
+// maps over forecasts and renders the key data we want as group of summaries at bottom of page
+
 const ForecastSummaries = ({ forecasts, onForecastSelect }) => {
   return (
     <div className="forecast-summaries">

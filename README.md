@@ -8,7 +8,7 @@ You can view a deployed version of the app at https://weather-app-scott-hannabus
 
 ## Project Screenshot
 
-<img src='./src/images/screenshot.png' alt="browser screenshot" width='500px' height='200px'/>
+<img src='./src/images/screenshot.png' alt="browser screenshot" width='300px' height='200px'/>
 
 ## Technologies and dependencies used
 
