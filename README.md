@@ -1,6 +1,6 @@
 ## React Weather App - Project Overview
 
-A bootcamp project designed to give an overview on the core fundamentals of React. We were tasked with building an app that would retrieve data from the Open Weather API when users inputted the name of a UK city.
+A weather app that retrieves data from the Open Weather API when users input the name of a UK city.
 
 The API returns a 5 day forecast for the selected city with a detailed weather breakdown for these 5 days.
 
